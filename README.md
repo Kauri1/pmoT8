@@ -2,6 +2,7 @@
 
 ## Nimed:
 * Kauri Remm
+* Philip Paškov
 
 Teeme grupiga infolehe e-spordi Leage of Legends kotha, kus tutvustame sporti, erinevaid mängijaid ja
 populaaresmaid klubisid.
