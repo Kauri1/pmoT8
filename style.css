@@ -10,3 +10,11 @@ body {
 p {
     font-size: 150%;
 }
+
+a {
+    font-size: 160%;
+}
+
+img {
+    max-width: 500px;
+}
