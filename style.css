@@ -6,3 +6,7 @@ body {
 .teised_lehed{
     text-align: right;
 }
+
+p {
+    font-size: 150%;
+}
