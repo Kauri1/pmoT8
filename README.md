@@ -3,9 +3,10 @@
 ## Nimed:
 * Kauri Remm
 * Philip Paškov
+* Mattias Antsov
 
-Teeme grupiga infolehe e-spordi Leage of Legends kotha, kus tutvustame sporti, erinevaid mängijaid ja
-populaaresmaid klubisid.
+Teeme grupiga infolehe e-spordi League of Legends kotha, kus tutvustame sporti, erinevaid mängijaid ja
+populaarsemaid klubisid.
 
 
 Veebilehe rühmatöö tingimused
