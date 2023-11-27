@@ -1,20 +1,29 @@
 
 body {
     background-image: url("https://images5.alphacoders.com/887/887237.jpg");
-    background-size: cover;
+    background-size: auto;
+    background-attachment: fixed;
 }
+
+
 
 .teised_lehed{
     text-align: right;
 }
 
+h1{
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+}
+
 p {
     font-size: 150%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 a {
     font-size: 160%;
+    color: azure;
 }
 
 .pildid_lehel2{
@@ -46,7 +55,7 @@ a {
     }
   }
 
-  /*
+/*
 .section-container{
     padding: 20px;
     display: grid;
@@ -55,3 +64,35 @@ a {
     float: left;
 }
 */
+
+.navbar{
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+.active {
+    background-color: #04AA6D;
+  }
