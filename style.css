@@ -41,7 +41,7 @@ img {
     margin: 5px;
   }
 
-  .text-container_right {
+.text-container_right {
     margin-top: 1%;
     width: 40%;
     height: 200px;
@@ -56,9 +56,10 @@ img {
     flex: 1;
 }
 
+
 .section-container{
     background-color: #B8B09C; /* Darker background color */
     padding: 20px; /* Adding some padding inside the container */
     border: 2px solid #321938;
-    column-width: 50%;
+    columns: 2;
 }
