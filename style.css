@@ -1,6 +1,6 @@
 
 body {
-    background-color:rgb(86, 151, 204);
+    background-color:#B1B09C;
 }
 
 .teised_lehed{
@@ -17,4 +17,48 @@ a {
 
 img {
     max-width: 500px;
+}
+
+.text-container_left {
+    margin-top: 2%;
+    width: 40%;
+    height: 100px;
+    float: left;
+}
+
+.image-container {
+    margin-left: 65%;
+    margin-top: 1%;
+    width: 400px;
+    height: 200px;
+    flex: 1;
+}
+
+
+.box {
+    flex: auto; /* Allows boxes to grow and fill available space equally */
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .text-container_right {
+    margin-top: 1%;
+    width: 40%;
+    height: 200px;
+    float: right;
+}
+
+.image-container_left {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 400px;
+    height: 200px;
+    flex: 1;
+}
+
+.section-container{
+    background-color: #B8B09C; /* Darker background color */
+    padding: 20px; /* Adding some padding inside the container */
+    border: 2px solid #321938;
+    column-width: 50%;
 }
