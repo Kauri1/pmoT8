@@ -41,6 +41,11 @@ table a{
     color: rgb(194, 187, 211);
 }
 
+table th, td{
+    background-color: rgba(32, 122, 138, 0.1);
+    border-radius: 5px;
+}
+
 .pildid_lehel2{
     max-width: 100%;
     max-width: auto;
