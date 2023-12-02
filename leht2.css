@@ -1,0 +1,27 @@
+
+
+
+.pildid_lehel2{
+    max-width: 100%;
+    max-width: auto;
+    min-width: 200px;
+    border-radius: 20px;
+}
+
+table{
+    font-size: 160%;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px) hue-rotate(330deg);
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+table a{
+    color: rgb(194, 187, 211);
+}
+
+table th, td{
+    background-color: rgba(32, 122, 138, 0.1);
+    border-radius: 5px;
+}
