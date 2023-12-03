@@ -5,6 +5,8 @@
     max-width: auto;
     min-width: 200px;
     border-radius: 20px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10%;
 }
 
 table{
