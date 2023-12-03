@@ -26,3 +26,9 @@ table th, td{
     background-color: rgba(32, 122, 138, 0.1);
     border-radius: 5px;
 }
+
+h2{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
