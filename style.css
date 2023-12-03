@@ -26,7 +26,12 @@ p {
     color: rgb(255, 255, 255);
 }
 
-
+.suur_pilt{
+    max-width: 100%;
+    min-width: 200px;
+    border-radius: 20px;
+    margin-top: 10%;
+}
 
 .keskmine_pilt{
     max-width: 500px;
