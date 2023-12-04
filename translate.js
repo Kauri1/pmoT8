@@ -60,4 +60,5 @@ function setupTranslationButton() {
 document.addEventListener('DOMContentLoaded', setupTranslationButton);
 //Selle reaga seatakse kuulaja (event listener) lehe laadimise sündmusele DOMContentLoaded, mis käivitub siis, kui dokument on täielikult laetud (kõik HTML elemendid on konstrueeritud, CSS ja pildid on alla laaditud jne).
 //Kui see sündmus käivitub, siis see reageerib funktsioonile setupTranslationButton, mis omakorda loob tõlkimisnupu ja lisab selle lehe päisele (kui päis eksisteerib).
-//Kokkuvõttes käivitatakse setupTranslationButton funktsioon alles pärast seda, kui kogu HTML on lehel laetud, mis tagab, et tõlkimisnupp lisatakse lehele alles siis, kui kogu sisu on valmis kuvamiseks. Kasutasin AI abi.
+//Kokkuvõttes käivitatakse setupTranslationButton funktsioon alles pärast seda, kui kogu HTML on lehel laetud, mis tagab, et tõlkimisnupp lisatakse lehele alles siis, kui kogu sisu on valmis kuvamiseks.
+//Viide: Philip Paškov koos chatGPT 3.5 ja Bing AI abiga
