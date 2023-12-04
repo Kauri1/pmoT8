@@ -1,3 +1,4 @@
+
 function searchContent() {
     var searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
     var paragraphs = document.querySelectorAll('.content p'); // Select all paragraphs within the content class
