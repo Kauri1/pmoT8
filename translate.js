@@ -1,5 +1,5 @@
 function translateTextToEstonian() {
-    const translatedText = {
+    const translatedText = { //tõlked, mida kasutasime home lehel
         'What is League of Legends?': 'Mis on League of Legends?',
         'Release': 'Väljalase',
         'Gameplay': 'Mängumehaanika',
@@ -24,7 +24,7 @@ function translateTextToEstonian() {
         if (translatedText[originalText]) {
             h1.textContent = translatedText[originalText];
         }
-    });
+    }); //võtab kõik h1 elemendid ja store'ib need h1Elements variablesse, siis tõlgib,sest muidu ei saa tõlge ligi
 
     const pElements = document.querySelectorAll('.content p');
     pElements.forEach(p => {
@@ -32,29 +32,32 @@ function translateTextToEstonian() {
         if (translatedText[originalText]) {
             p.textContent = translatedText[originalText];
         }
-    });
+    });//võtab kõik p elemendid ja store'ib need pElements variablesse, siis tõlgib,sest muidu ei saa tõlge ligi
 
     const aboutLink = document.querySelector('a[href="https://www.leagueoflegends.com/en-gb/"]');
     if (aboutLink) {
         aboutLink.textContent = 'Lisateave';
-    }
+    }//samamoodi nagu ülemised, aga eraldi link
 
     const seeMoreLink = document.querySelector('a[href="Leht3.html"]');
     if (seeMoreLink) {
         seeMoreLink.textContent = 'Mängumehaanika';
-    }
+    }//samamoodi nagu ülemised, aga eraldi link
 }
 
 function setupTranslationButton() {
     const translateButton = document.createElement('button');
-    translateButton.textContent = 'Tõlgi eesti keelde';
-    translateButton.onclick = translateTextToEstonian;
-    translateButton.classList.add('translate-button'); // Add a class for styling
+    translateButton.textContent = 'Tõlgi eesti keelde';// Nupu teksti määramine
+    translateButton.onclick = translateTextToEstonian;// Seostab nupu klõpsamise tõlkefunktsiooniga
+    translateButton.classList.add('translate-button'); // Klassi lisamine stiilistamiseks .css failist
 
     const header = document.querySelector('.navbar_phil');
     if (header) {
-        header.appendChild(translateButton);
+        header.appendChild(translateButton);// Lisab loodud nupu päisele, kui päis leitakse
     }
 }
 
 document.addEventListener('DOMContentLoaded', setupTranslationButton);
+//Selle reaga seatakse kuulaja (event listener) lehe laadimise sündmusele DOMContentLoaded, mis käivitub siis, kui dokument on täielikult laetud (kõik HTML elemendid on konstrueeritud, CSS ja pildid on alla laaditud jne).
+//Kui see sündmus käivitub, siis see reageerib funktsioonile setupTranslationButton, mis omakorda loob tõlkimisnupu ja lisab selle lehe päisele (kui päis eksisteerib).
+//Kokkuvõttes käivitatakse setupTranslationButton funktsioon alles pärast seda, kui kogu HTML on lehel laetud, mis tagab, et tõlkimisnupp lisatakse lehele alles siis, kui kogu sisu on valmis kuvamiseks. Kasutasin AI abi.
