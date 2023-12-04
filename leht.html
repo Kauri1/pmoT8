@@ -3,7 +3,8 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="leht2.css">
+    <link rel="stylesheet" href="leht.css">
+    <script src="leht.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
@@ -11,14 +12,25 @@
 
 <body>
 
+    
+
+    
+
+    <div class="navbar_phil">
+        <ul>
+            <li class="navli"><a href="leht2.html" class="nava">LoL as an eSport</a></li>
+            <li class="navli"><a href="Leht3.html" class="nava">Gameplay</a></li>
+            <li style="float:right" class="navli"><a class="nava active" href="https://www.leagueoflegends.com/en-gb/">About</a></li>
+            <!-- Search input should be within the <ul> as a list item -->
+            <li class="search">
+                <li class="search">
+                    <input type="text" id="searchInput" name="q" placeholder="Search..." oninput="searchContent()">
+                    <button type="button" onclick="searchContent()">Search</button>
+                </li>
+            </ul>
+        </div>
+<div class="content">
     <h1>Leage of Legends</h1>
-
-    <ul class="navbar1">
-        <li class="navli"><a href="leht2.html" class="nava">LoL as an eSport</a></li>
-        <li class="navli"><a href="Leht3.html" class="nava">Gameplay</a></li>
-        <li style="float:right" class="navli"><a class="nava active" href="https://www.leagueoflegends.com/en-gb/">About</a></li>
-    </ul>
-
 
     <div class="row">
         <div class="column">
@@ -73,5 +85,7 @@
         <h2><a href="leht2.html">e-sports</a></h2>
     </div>
 </div>
+</div>
+
 </body>
 </html>
