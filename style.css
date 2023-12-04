@@ -1,6 +1,7 @@
 
 body {
-    background-image: url("https://images5.alphacoders.com/887/887237.jpg");
+    background-color: #111;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/68987724825313.5633aae959179.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
