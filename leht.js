@@ -9,7 +9,7 @@ function searchContent() {
         });
         return; // Exit the function if the search term is empty
     }
-    
+
     paragraphs.forEach(function(paragraph) {
         var content = paragraph.textContent.toLowerCase();
         if (content.includes(searchTerm)) {
